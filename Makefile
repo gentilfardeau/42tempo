@@ -6,7 +6,7 @@
 #    By: tbras <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/17 14:48:36 by tbras             #+#    #+#              #
-#    Updated: 2023/11/23 17:00:38 by tbras            ###   ########.fr        #
+#    Updated: 2023/11/24 16:59:18 by tbras            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +46,12 @@ SRC = \
 	ft_strnstr.c \
 	ft_substr.c \
 	ft_strjoin.c \
+	ft_strtrim.c \
+	ft_putchar_fd.c \
+	ft_putstr_fd.c \
+	ft_putendl_fd.c \
+	ft_putnbr_fd.c \
+	ft_itoa.c \
 
 OBJ = $(SRC:.c=.o)
 

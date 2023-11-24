@@ -6,7 +6,7 @@
 /*   By: tbras <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 17:44:49 by tbras             #+#    #+#             */
-/*   Updated: 2023/11/23 18:02:11 by tbras            ###   ########.fr       */
+/*   Updated: 2023/11/24 14:59:57 by tbras            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 		return (NULL); 
 	i = 0; 
 	j = 0;
-	while (s[i]) 
+	while (s[i] && i < len) 
 	{
 		if (!start || i == (size_t)start)
 		{
